@@ -6,9 +6,9 @@ import Button from 'react-bootstrap/Button'
 export default function Jumbo() {
     return (
         <Jumbotron>
-            <h1>Hello, world!</h1>
-            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <Button variant="primary">Learn more</Button>
+            <h1>Batch 101 - Hello user!</h1>
+            <p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Obcaecati sequi quam nisi doloremque sed, ipsam mollitia sunt consequuntur commodi asperiores delectus blanditiis dicta enim molestias, vero ad ratione voluptate. Facere.</p></p>
+            <Button variant="primary">Go to blogs</Button>
         </Jumbotron>
     )
 }

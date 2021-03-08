@@ -1,0 +1,19 @@
+Activity:
+	Gitlab and Github repositories connecting to Heroku apps
+
+1. Inside s04 dir, clone a remote repo:
+	- https://gitlab.com/tuitt/students/batch101/resources/s04-a1
+2. On the cloned project, create two (2) branches:
+	- staging
+	- production
+3. On your gitlab, under Batch 101 repo, create a project "s04-a1" and push all branches from local cloned project.
+4. On your heroku account, create an app for staging and production of your cloned project. 
+	(erase an the previous apps if limit is reached)
+		names of app:
+			- lastname-s04-a1-staging
+			- lastname-s04-a1-production
+5. Connect your Heroku apps to your gitlab repo s04-a1
+	- make sure to add the necessary variables (API_keys, App names)
+	- make sure to add the YAML file to run the pipelines
+6. On your github, create a project "s04-a1" and push all branches from the cloned project
+7. Create a heroku app "lastname-s04-a1-github", then connect your github project to it 
